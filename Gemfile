@@ -1,12 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
+gem 'bootstrap-sass', '2.1'
 gem 'pg','0.12.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-	gem 'rspec-rails', '2.9.0'
+	 gem 'rspec-rails', '2.11.0'
+  gem 'guard-rspec', '1.2.1'
+  gem 'guard-spork', '1.2.0'
+  gem 'childprocess', '0.3.6'
+  gem 'spork', '0.9.2'
+ gem 'capybara'
 end
 
 
@@ -25,12 +31,15 @@ end
 gem 'jquery-rails', '~>2.0.1'
 
 group :production do
-	gem 'pg', '0.12.2'
 end
 
 group :test do
-	gem 'pg', '0.12.2'
-	gem 'capybara', '1.1.2'
+	gem 'rspec-rails', '2.11.0'
+  gem 'guard-rspec', '1.2.1'
+  gem 'guard-spork', '1.2.0'
+  gem 'childprocess', '0.3.6'
+  gem 'spork', '0.9.2'
+gem 'capybara'
 end
 
 # To use ActiveModel has_secure_password
