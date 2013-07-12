@@ -33,6 +33,7 @@ end
 gem 'jquery-rails', '~>2.0.1'
 
 group :production do
+  gem 'thin'
  end
 
 group :test do
