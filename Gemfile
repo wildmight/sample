@@ -33,6 +33,7 @@ end
 gem 'jquery-rails', '~>2.0.1'
 
 group :production do
+  gem 'rspec-rails', '2.11.0'
 end
 
 group :test do
