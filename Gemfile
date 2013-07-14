@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails'
 gem 'bootstrap-sass', '2.1'
 gem 'pg','0.12.2'
 gem 'bcrypt-ruby', '3.0.1'
@@ -8,8 +8,8 @@ gem 'bcrypt-ruby', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-	 gem 'rspec-rails', '2.11.0'
-  gem 'guard-rspec', '1.2.1'
+	 gem 'rspec-rails'
+  gem 'guard-rspec'
   gem 'guard-spork', '1.2.0'
   gem 'childprocess', '0.3.6'
   gem 'spork', '0.9.2'
@@ -37,8 +37,8 @@ group :production do
  end
 
 group :test do
-	gem 'rspec-rails', '2.11.0'
-  gem 'guard-rspec', '1.2.1'
+	gem 'rspec-rails'
+  gem 'guard-rspec'
   gem 'guard-spork', '1.2.0'
   gem 'childprocess', '0.3.6'
   gem 'spork', '0.9.2'
